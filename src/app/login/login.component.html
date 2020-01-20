@@ -1,0 +1,14 @@
+<div class="temp"><div class="option">
+    <br>
+    
+    <h3>Login as</h3><button (click)="adminlogin()" class="bt1" [ngClass]="change ? 'bt1' : 'bt2'">Admin</button><button (click)="userlogin()" class="bt1" [ngClass]="change ? 'bt2' : 'bt1'">user</button></div><br><br>
+    <div class="login">
+        <label>Username</label>
+        <input name="username" type="text" [(ngModel)]="credentials.username" class="form-control w-50"><br><br>
+        <label>password</label>
+        <input name="password" type="password" [(ngModel)]="credentials.password" class="form-control w-50" (keyup.enter)="onEnter()"><br><br>
+        <button (click)="login()" class="btn btn-primary w-auto ">Login</button><br><br>
+        <label *ngIf="!log" id="alert" class="alert alert-danger float-center">Wrong username or password</label>
+
+    </div>
+</div>

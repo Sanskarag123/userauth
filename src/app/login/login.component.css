@@ -1,0 +1,66 @@
+._user
+{
+    float: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    
+
+}
+.login
+{
+    width: 400px;
+    height: 600px;
+    margin-left:110px;
+    line-height: 20px;
+
+ 
+   
+
+}
+#alert{
+    margin-left: -30px;
+}
+
+.bt1
+{
+text-align: center;
+
+
+
+height: 40px;
+width: 70px;
+background-color: white;
+border: 0px solid #4a69bb ;
+transition-delay: 0.2s;
+margin-right: 2px;
+
+
+}
+.bt2
+{float: center;
+    
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    
+    border-bottom: 2px solid rgb(0, 0, 0,0.5);
+    transition-delay: 0.2s;
+
+}
+.option
+{
+    width:200px;
+    margin-left: 150px;
+}
+h3{
+    align:center
+}
+.temp
+{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;;
+}
